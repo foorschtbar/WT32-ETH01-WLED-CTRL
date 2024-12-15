@@ -1,6 +1,6 @@
 # WT32-ETH01 WLED CTRL
 
-A wired (Etherneth/LAN) WLED Controller
+A wired (Ethernet/LAN) WLED Controller
 
 ## Links
 
