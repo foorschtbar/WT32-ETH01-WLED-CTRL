@@ -1,0 +1,260 @@
+(footprint "SK6812SIDE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SK6812SIDE")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "9fb48017-869f-4d13-aa6d-472c4d124fd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SK6812SIDE"
+		(at 0 3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "40307fa2-83d3-4512-982b-876375b05efb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "882847fe-f576-4e29-89a7-948ae82e418d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ab99231-cacd-453c-b4b1-64338a1dbb25")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7bfcdf2d-2ad7-4771-808e-735f3a864da2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 1.5)
+		(end -2 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88d22227-5b63-4e0d-9890-b1d72422a1b2")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "573228de-7698-45b6-9823-bc8475648851")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 2 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37594c73-851c-459f-9620-75df1ac99d66")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6 0) (xy -2.9 -0.3) (xy -2.9 0.3)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "831dae79-044a-43cb-947f-0908ec3c9bfe")
+	)
+	(fp_line
+		(start -2.5 -1.25)
+		(end 2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1f67250-c661-491c-86b3-0429cda35dea")
+	)
+	(fp_line
+		(start -2.5 1.75)
+		(end -2.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "589813b9-4695-45b0-b870-560e710b0e9e")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "15ff5d2f-ba35-44b4-95cb-ac624e6edc7a")
+	)
+	(fp_line
+		(start 2.5 1.75)
+		(end -2.5 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a8c63f4-9816-4f7b-89a0-123ae2defebe")
+	)
+	(fp_line
+		(start -2 -1)
+		(end -2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "041039dc-2386-4395-92f0-2c728fd82174")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "531457a6-4f93-4e47-b6ea-494b5f4115c0")
+	)
+	(fp_line
+		(start 2 -1)
+		(end -2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abbc190e-ead6-47f3-b0d9-558716a9edeb")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9012f93-8f66-4792-9fa9-76b106e5c721")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(layer "F.Fab")
+		(uuid "3506c669-1810-4b30-a3bf-93378cbcf1b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -1.575 0)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.725 -0.275)
+				(end 0.225 0.275)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "70857b51-6b89-433b-bca3-32dd6430e3da")
+	)
+	(pad "2" smd rect
+		(at -0.45 0)
+		(size 0.7 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2217d895-cc51-471f-a963-986b44a6f8cc")
+	)
+	(pad "3" smd rect
+		(at 0.575 0)
+		(size 0.45 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5deaf12a-0e04-47f4-a86d-14c45db1663a")
+	)
+	(pad "4" smd custom
+		(at 1.575 0)
+		(size 0.55 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start -0.225 -0.275)
+				(end 0.725 0.275)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "67fd62b1-8cdc-449d-b2d9-4077c897b9f1")
+	)
+	(model "${KIPRJMOD}/Lib/SK6812SIDE.pretty/SK6812SIDE.STEP"
+		(offset
+			(xyz -0.05 -0.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

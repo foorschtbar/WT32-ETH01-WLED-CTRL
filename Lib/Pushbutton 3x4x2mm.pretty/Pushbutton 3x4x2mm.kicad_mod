@@ -1,0 +1,189 @@
+(footprint "Pushbutton 3x4x2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ff839d41-c3dd-4c0d-bd74-f359408973bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pushbutton 3x4x2mm"
+		(at 0 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1c179221-7b2f-43b4-95fe-9041d8bd0dd8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b13d0f0-b6bf-429b-8b0c-8023ea917771")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1dcf04d3-3b45-487a-b26a-2ae259ee1e2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "921c96f5-4cf7-42cf-80da-4fac45663b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.7)
+		(end 2.2 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59492996-b048-411a-aea0-6dfd6be56ccd")
+	)
+	(fp_line
+		(start -2.2 -1.3)
+		(end -2.2 -1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "696aa0fb-5e44-4bfe-a1a7-c364e246b299")
+	)
+	(fp_line
+		(start -2.2 1.7)
+		(end -2.2 1.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "032abf59-ac89-49a3-85a3-a09162569c48")
+	)
+	(fp_line
+		(start 2.2 -1.7)
+		(end 2.2 -1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5902273f-e2cc-45f2-bc0d-c2b330fbf992")
+	)
+	(fp_line
+		(start 2.2 1.25)
+		(end 2.2 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f71f3a0e-a96c-4cac-b4df-8898971556e0")
+	)
+	(fp_line
+		(start 2.2 1.7)
+		(end -2.2 1.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3cb9eea-6348-416c-bf97-f4b1b298544e")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8c0e4a9c-cc98-4f16-95db-29e99211a03c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7a704258-dd00-47d7-9108-f1f61da32177")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f33deff-6455-4dd3-9066-014d8d843f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8de693b3-6ca0-4136-9a58-31985e26641a")
+	)
+	(pad "2" smd rect
+		(at 2.1 0)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "df9d21cc-9893-45c8-aeae-181f69957887")
+	)
+	(model "${KIPRJMOD}/Lib/Pushbutton 3x4x2mm.pretty/Pushbutton 3x4x2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
