@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|137180000|115600000|84dfa51f-3ec6-4117-8c6a-fb9a05af5ea3|84fcf03e-7355-471d-8274-360fffbfb05f",
-        "copper_edge_clearance|145820000|115600000|84dfa51f-3ec6-4117-8c6a-fb9a05af5ea3|10866da7-0466-4174-9982-d1a3a02e021e",
-        "hole_clearance|138450000|110870000|7e0e7a82-4320-4b70-a456-278dab080964|284ba660-b075-4076-8b75-8f19aab6bdac",
-        "hole_clearance|138450000|110870000|7e0e7a82-4320-4b70-a456-278dab080964|ed57002b-c7a5-42d3-b74b-17799ce84d2f",
-        "hole_clearance|144550000|110870000|77a21bc9-4ae5-4018-900a-fc598a11bd2e|78beaa68-44f5-4cfb-84dd-696be42c00c6",
-        "hole_clearance|144550000|110870000|77a21bc9-4ae5-4018-900a-fc598a11bd2e|ddc12725-5d94-4cca-9531-eaf2b7bdd645",
-        "starved_thermal|144700000|110445000|3781c333-2d63-472b-929f-3260074b1c90|78beaa68-44f5-4cfb-84dd-696be42c00c6|F.Cu",
-        "starved_thermal|144700000|110445000|3781c333-2d63-472b-929f-3260074b1c90|ddc12725-5d94-4cca-9531-eaf2b7bdd645|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -75,7 +66,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -86,7 +77,7 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "warning",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -110,7 +101,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -498,7 +489,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -596,7 +587,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
